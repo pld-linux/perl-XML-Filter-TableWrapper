@@ -3,8 +3,8 @@
 %bcond_without	tests		# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Filter-TableWrapper
+%define		pdir	XML
+%define		pnam	Filter-TableWrapper
 Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number of rows
 Summary(pl):	XML::Filter::TableWrapper - zawijanie komórek tabeli do okre¶lonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
