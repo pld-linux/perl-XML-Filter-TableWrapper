@@ -30,8 +30,11 @@ default).  By default, it assumes that the container element is named
 "{}table" (the "{}" means it is not namespaced), but this can be
 changed.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ przyjmuje listê elementów i wstawia (domy¶lnie) elementy
+<tr>...</tr>, aby stworzyæ tabelê o podanej liczbie kolumn (domy¶lnie
+5). Domy¶lnie przyjmuje, ¿e element kontenera jest nazwany "{}table"
+("{}" oznacza, ¿e nie ma przestrzeni nazw), ale mo¿na to zmieniæ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -54,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_vendorlib}/%{pdir}/*/*.pm
+%{perl_vendorlib}/XML/*/*.pm
 %{_mandir}/man3/*
