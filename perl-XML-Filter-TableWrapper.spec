@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Filter-TableWrapper
-Summary:	XML::Filter::TableWrapper - Wrap a table's cells in to a certain number of rows
-#Summary(pl):	
+Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number of rows
+Summary(pl):	XML::Filter::TableWrapper - zawijanie komórek tabeli do okre¶lonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
 Version:	0.02
 Release:	1
@@ -24,10 +24,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Takes a list of elements and inserts (by default) <tr>...</tr> elements
-to make an table with a specified number of columns (5 by default).
-By default, it assumes that the container element is named "{}table"
-(the "{}" means it is not namespaced), but this can be changed:
+Takes a list of elements and inserts (by default) <tr>...</tr>
+elements to make a table with a specified number of columns (5 by
+default).  By default, it assumes that the container element is named
+"{}table" (the "{}" means it is not namespaced), but this can be
+changed.
 
 # %description -l pl
 # TODO
