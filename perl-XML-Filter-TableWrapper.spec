@@ -26,7 +26,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Takes a list of elements and inserts (by default) <tr>...</tr>
 elements to make a table with a specified number of columns (5 by
-default).  By default, it assumes that the container element is named
+default). By default, it assumes that the container element is named
 "{}table" (the "{}" means it is not namespaced), but this can be
 changed.
 
