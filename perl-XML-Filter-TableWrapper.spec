@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Filter-TableWrapper
 Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number of rows
-Summary(pl):	XML::Filter::TableWrapper - zawijanie komórek tabeli do okre¶lonej liczby wierszy
+Summary(pl.UTF-8):   XML::Filter::TableWrapper - zawijanie komÃ³rek tabeli do okreÅ›lonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
 Version:	0.02
 Release:	1
@@ -30,11 +30,11 @@ default). By default, it assumes that the container element is named
 "{}table" (the "{}" means it is not namespaced), but this can be
 changed.
 
-%description -l pl
-Modu³ przyjmuje listê elementów i wstawia (domy¶lnie) elementy
-<tr>...</tr>, aby stworzyæ tabelê o podanej liczbie kolumn (domy¶lnie
-5). Domy¶lnie przyjmuje, ¿e element kontenera jest nazwany "{}table"
-("{}" oznacza, ¿e nie ma przestrzeni nazw), ale mo¿na to zmieniæ.
+%description -l pl.UTF-8
+ModuÅ‚ przyjmuje listÄ™ elementÃ³w i wstawia (domyÅ›lnie) elementy
+<tr>...</tr>, aby stworzyÄ‡ tabelÄ™ o podanej liczbie kolumn (domyÅ›lnie
+5). DomyÅ›lnie przyjmuje, Å¼e element kontenera jest nazwany "{}table"
+("{}" oznacza, Å¼e nie ma przestrzeni nazw), ale moÅ¼na to zmieniÄ‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
