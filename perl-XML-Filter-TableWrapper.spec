@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Filter-TableWrapper
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number of rows
 Summary(pl.UTF-8):	XML::Filter::TableWrapper - zawijanie komórek tabeli do określonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
@@ -14,6 +14,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d36dbef18116b3609d179a20e699c0aa
+URL:		http://search.cpan.org/dist/XML-Filter-TableWrapper/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
