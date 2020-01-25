@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Filter-TableWrapper
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number of rows
 Summary(pl.UTF-8):	XML::Filter::TableWrapper - zawijanie komórek tabeli do określonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
