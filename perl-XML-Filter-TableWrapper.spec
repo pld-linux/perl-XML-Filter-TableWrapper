@@ -8,7 +8,7 @@ Summary:	XML::Filter::TableWrapper - wrap a table's cells in to a certain number
 Summary(pl.UTF-8):	XML::Filter::TableWrapper - zawijanie komórek tabeli do określonej liczby wierszy
 Name:		perl-XML-Filter-TableWrapper
 Version:	0.02
-Release:	1
+Release:	2
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
